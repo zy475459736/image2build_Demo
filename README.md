@@ -6,6 +6,9 @@
 * DockerFile + Docker Daemon
 * plugin spotify
 * plugin jib
+> mvn jib:dockerBuild
+> mvn jib:build
+> mvn jib:buildTar
 
 ## 基础镜像
 * fabric8/java-jboss-openjdk8-jdk
